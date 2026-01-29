@@ -1,5 +1,5 @@
 {% set name = "jinja_partials" %}
-{% set version = "0.2.1" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jinja_partials-{{ version }}.tar.gz
-  sha256: 5b32cc035ee93f372ddfcecf96c4837450d8561d0e2ff26c89dc0d0bd071128b
+  sha256: 0c53d6e6489617a7efd403506040d5be7a138b95b7051e727cd8f42b0d8159a2
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
