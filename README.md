@@ -27,7 +27,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-jinja_partials-green.svg)](https://anaconda.org/conda-forge/jinja_partials) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/jinja_partials.svg)](https://anaconda.org/conda-forge/jinja_partials) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/jinja_partials.svg)](https://anaconda.org/conda-forge/jinja_partials) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/jinja_partials.svg)](https://anaconda.org/conda-forge/jinja_partials) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-jinja__partials-green.svg)](https://anaconda.org/conda-forge/jinja_partials) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/jinja_partials.svg)](https://anaconda.org/conda-forge/jinja_partials) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/jinja_partials.svg)](https://anaconda.org/conda-forge/jinja_partials) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/jinja_partials.svg)](https://anaconda.org/conda-forge/jinja_partials) |
 
 Installing jinja_partials
 =========================
