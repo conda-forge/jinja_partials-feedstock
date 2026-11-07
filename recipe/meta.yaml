@@ -1,18 +1,18 @@
 {% set name = "jinja_partials" %}
-{% set version = "0.2.1" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/jinja_partials-{{ version }}.tar.gz
-  sha256: 5b32cc035ee93f372ddfcecf96c4837450d8561d0e2ff26c89dc0d0bd071128b
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/jinja_partials-{{ version }}.tar.gz
+  sha256: 5e85542741c445bf1320090d05d9e47dc9061deeb63a3fe2bc06e66690be9cbb
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
